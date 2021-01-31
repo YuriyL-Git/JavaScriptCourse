@@ -1,12 +1,7 @@
-function print(variable) {
-    let c = 3
-    return function func(variable2) {
-        console.log(variable)
-        console.log(variable2)
-        console.log(c)
-    }
-}
+let a = 1
+console.log(a)
+console.log(typeof a)
+
+let b = parseInt(a)
 
 
-let a = print(1)
-a(2)
