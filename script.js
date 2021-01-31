@@ -7,5 +7,6 @@ function print(variable) {
     }
 }
 
+
 let a = print(1)
 a(2)
