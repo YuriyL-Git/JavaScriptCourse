@@ -1,9 +1,12 @@
-let a = '1'
-console.log(a)
-console.log(typeof a)
+let person =
+    {
+        name: 'Kyle',
+        age: 25,
+        favoriteNumber: 3,
+        sayHi()
+        {
+            console.log('Hi!')
+        }
+    }
 
-let b = a.toString()
-
-console.log(b)
-console.log(typeof b)
-
+person.sayHi()
